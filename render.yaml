@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flask-blog
+    env: python
+    repo: https://github.com/srideviparimi/100_Days_of_Code_Python
+    branch: main
+    rootDir: Day 69 Adding User accounts
+    buildCommand: ""
+    startCommand: gunicorn main:app
+    plan: free
